@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background color */
+    color: #333; /* Dark gray text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container p {
+    margin-bottom: 20px;
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+#guestName {
+    font-weight: bold;
+}
+
+body{ 
+    background-color: rgb(196, 159, 148); 
+    }
+

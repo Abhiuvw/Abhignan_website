@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="stylesi1.css">
+    <style>
+        .b{
+            padding-top: 60px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+        .a{
+            text-align-last: center;
+            font-family: "Lucida Console", "Courier New", monospace; 
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="b">
+    
+    <p class="a">Hello, I think your name is <span id="guestName"></span>,</p>
+
+    <p class="a">
+        If you find this link then you are a friend. Here is the reason I shared this link
+        <br>
+        <br>
+        <br>
+        My name is Nedunuri Abhignan Chandra.
+        <br>
+        I am a third-year undergraduate student of the Department of Electrical and Electronics Communication Engineering.
+        <br>
+        I am a boarder of Pandit Pandhan Mohan Hall of Residence.
+        <br>
+        I am from Warangal, Telangana.
+        <br>
+        <br>
+        Now you know my name and my hall of residence.
+        <br>
+        Soooooooooooooooooooooooo, coming to "The thing".
+        <br>
+        <br>
+        You are invited (cordially) for the hall day celebration. The one and only hall MMM.
+    </p>
+    </div>
+    <p class="a">ROOM NUMBER :: SDS 501 .......</p>
+    <script>
+        // Get the guest name from the URL query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const guestName = urlParams.get('name');
+        // Display the guest name on the invitation
+        document.getElementById('guestName').textContent = guestName;
+    </script>
+</body>
+
+</html>
